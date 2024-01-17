@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "96948732588",
+    "project_id": "polacoapp-93d58",
+    "storage_bucket": "polacoapp-93d58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96948732588:android:91b7fa8c856858ed809509",
+        "android_client_info": {
+          "package_name": "com.example.polacoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96948732588-tr72i3b7lq1335p0kg2ok828damcei4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCuNUrnl7p-wK4TAeyABitaTzwol3BTYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96948732588-tr72i3b7lq1335p0kg2ok828damcei4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.polacoapp.ui.fragment.InicioFragment"
+        tools:layout="@layout/fragment_inicio">
+        <action
+            android:id="@+id/action_inicioFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroFragment"
+        android:name="com.example.polacoapp.ui.fragment.RegistroFragment"
+        android:label="fragment_registro"
+        tools:layout="@layout/fragment_registro">
+        <action
+            android:id="@+id/action_registroFragment_to_bottomSheetFragment"
+            app:destination="@id/bottomSheetFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/bottomSheetFragment"
+        android:name="com.example.polacoapp.ui.fragment.BottomSheetFragment"
+        android:label="fragment_bottom_sheet"
+        tools:layout="@layout/fragment_bottom_sheet" >
+        <action
+            android:id="@+id/action_bottomSheetFragment_to_infoClienteFragment"
+            app:destination="@id/infoClienteFragment">
+        </action>
+
+    </dialog>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.polacoapp.ui.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_registroFragment"
+            app:destination="@id/registroFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_reporteFragment"
+            app:destination="@id/reporteFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reporteFragment"
+        android:name="com.example.polacoapp.ui.fragment.ReporteFragment"
+        android:label="fragment_reporte"
+        tools:layout="@layout/fragment_reporte" />
+    <fragment
+        android:id="@+id/infoClienteFragment"
+        android:name="com.example.polacoapp.ui.fragment.InfoClienteFragment"
+        android:label="fragment_info_cliente"
+        tools:layout="@layout/fragment_info_cliente" >
+        <argument
+            android:name="Cliente"
+            app:argType="com.example.polacoapp.model.Cliente" />
+    </fragment>
+</navigation>

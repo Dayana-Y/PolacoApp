@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Aplicacion de Polaco</string>
+    <string name="agregar">Agregar</string>
+    <string name="calcular">Calcular ubicacion</string>
+    <string name="compra">Compra</string>
+    <string name="deuda">Por cobrar:</string>
+    <string name="credito">Mi credito:</string>
+    <string name="vendido">Total vendido:</string>
+    <string name="saldo">₡0</string>
+    <string name="listar">Listar</string>
+    <string name="abonar">Abonar</string>
+    <string name="mapa">Ver ubicacion</string>
+    <string name="grabar">Grabar</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="mantenimiento">Compras</string>
+    <string name="reporte">Reporte</string>
+    <string name="cerrar">Cerrar sesion</string>
+    <string name="msgEscucharAudio">Escuchar nota de audio</string>
+    <string name="msgGrabandoAudio">Grabando nota de audio</string>
+    <string name="msgDeteniendoAudio">Nota de audio detenida</string>
+    <string name="msgEliminandoAudio">Audio eliminado</string>
+    <string name="msgSubiendoAudio">Subiendo nota de audio…</string>
+    <string name="todo">Por definir</string>
+    <string name="msgSubiendoFoto">Subiendo foto del producto…</string>
+    <string name="msg_imagen">Imagen de la compra</string>
+    <string name="msgFaltanDatos">Faltan Datos…</string>
+
+    <string name="msg_error">Error</string>
+    <string name="msgLugarAgregado">Cliente agregado</string>
+    <string name="msgJuegoAgregado">Cliente agregado</string>
+    <string name="tv_latitud1">Latitud</string>
+    <string name="tv_longitud1">Longitud</string>
+    <string name="tv_altura1">Altura</string>
+    <string name="direccion">Direccion</string>
+    <string name="precio">₡</string>
+    <string name="identificacion">Identificacion</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="contra">Contraseña</string>
+    <string name="apellido">Apellido</string>
+    <string name="producto">Producto</string>
+</resources>
